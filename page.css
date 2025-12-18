@@ -1,0 +1,26 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 10vh;
+    margin-bottom: 28.5vh;
+}
+.list-group-item{
+  text-align: center;
+}
+
+.mainp{
+ text-align: center; 
+}
+footer {
+  background-color: #78baea;
+  color: #333;
+  text-align: center;
+  padding: 1rem;
+}
+.container li:nth-of-type(odd){
+   background-color: lightgrey;
+}
